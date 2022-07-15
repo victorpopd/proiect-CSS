@@ -52,7 +52,7 @@ body {
 }
 
 .buynow-btn {
-    background-color: rgb(31, 180, 194);
+    background-color: rgb(10, 180, 195);
     text-align: center;
     color: white;
     border: none;
@@ -79,7 +79,12 @@ body {
     margin-right: 5%;
 }
 
-img {
+.image-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.image-wrapper img {
     width: 550px;
     height: 380px;
     border-radius: 2% 0 0 2%;
@@ -88,6 +93,7 @@ img {
     -webkit-box-shadow: 10px 10px 5px #ccc;
     -khtml-box-shadow: 10px 10px 5px #ccc; */
 }
+
 
 .themes .top-text{
     font-size: 10px;
@@ -99,23 +105,19 @@ img {
     color: rgb(113, 154, 154);
 }
 
-.image-wrapper p{
-    font-size: 16px;
-    font-weight: 700;
-}
 
 .themes h1 {
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .themes h2 {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5;
     padding-bottom: 90px;
     margin-bottom: 30px;
-    border-bottom: 2px solid rgb(206, 198, 198);
+    border-bottom: 1px solid rgb(223, 227, 229);
 }
 
 .themes a {
@@ -158,6 +160,13 @@ img {
     padding-top: 10px;
 }
 
+.last-cell {
+    width: 12%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
 table {
     border-collapse: separate;
     border-spacing: 50px 0;
@@ -179,7 +188,12 @@ th {
     color: rgb(113, 154, 154);
 }
 
-.footer-second-row h1 {
+.footer-second-row h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.footer-second-row h2 {
     font-size: 14px;
     margin-top: 20px;
 }
@@ -189,13 +203,23 @@ th {
     color: rgb(113, 154, 154);
 }
 
+.last-cell h1 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.last-cell a {
+    font-size: 11px;
+    color: rgb(30, 180, 194);
+}
+
 .contact-policy {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 16px;
-    border-bottom: 10px rgb(105, 190, 36);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(52, 62, 71);
 }
 
 .contact-logo {
@@ -224,6 +248,7 @@ th {
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
+    padding-bottom: 30px;
 }
 
 .copyright p {
