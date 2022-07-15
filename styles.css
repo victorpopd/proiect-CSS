@@ -52,7 +52,7 @@ body {
 }
 
 .buynow-btn {
-    background-color: rgb(154, 163, 171);
+    background-color: rgb(31, 180, 194);
     text-align: center;
     color: white;
     border: none;
@@ -65,7 +65,7 @@ body {
     display: flex;
     flex-direction: row;
     /* height: 580px; */
-    background-color: rgb(234, 238, 243);
+    background-color: rgb(247, 250, 252);
     justify-content: space-between;
     padding-left: 12%;
     padding-bottom: 70px;
@@ -120,13 +120,14 @@ img {
 
 .themes a {
     font-style: italic;
-    color: rgb(161, 147, 157);
+    color: rgb(31, 180, 194);
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center; 
-    background-color: rgb(50, 49, 64);
+    background-color: rgb(39, 51, 61);
     color: white;
     width: 100%;
 }
@@ -187,6 +188,48 @@ th {
     font-size: 11px;
     color: rgb(113, 154, 154);
 }
+
+.contact-policy {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 10px rgb(105, 190, 36);
+}
+
+.contact-logo {
+    margin-left: 15%;
+}
+
+.contact-logo img {
+    width: 15px;
+    height: 15px;
+    border-radius: 15%;
+    margin-right: 5px;
+}
+
+.policy-text {
+    margin-right: 15%;
+}
+
+.policy-text p {
+    font-size: 10px;
+}
+
+.copyright {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.copyright p {
+    font-size: 10px;
+}
+
 /*
 .footer-content-second {
     display: grid;
@@ -210,6 +253,8 @@ th {
     font-size: 10px;
     color: rgb(113, 154, 154);
 } */
+
+  
 
 .material-symbols-outlined {
     font-variation-settings:
