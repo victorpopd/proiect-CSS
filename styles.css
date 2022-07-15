@@ -125,10 +125,7 @@ img {
 
 .footer {
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    flex: 1;
-    align-items: center;
+    justify-content: center; 
     background-color: rgb(50, 49, 64);
     color: white;
     width: 100%;
@@ -137,15 +134,82 @@ img {
 .footer-content {
     display: flex;
     justify-content: center;
-
+    margin-top: 26px;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    /* align-items: center; */
 }
 
-.footer-item {
+.footer-first-row {
     /* display: flex; */
-    margin-left: 20%;
-    margin-right: 20%;
+    /* flex-direction: column; */
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    width: 12%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+.footer-second-row {
+    width: 12%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+th {
+    vertical-align: top;
+    text-align: left;
+}
+
+
+
+.footer-first-row h1 {
+    font-size: 14px;
+}
+
+.footer-first-row p {
+    font-size: 11px;
+    color: rgb(113, 154, 154);
+}
+
+.footer-second-row h1 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-second-row p {
+    font-size: 11px;
+    color: rgb(113, 154, 154);
+}
+/*
+.footer-content-second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.footer-item-second {
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footer-item-second h1 {
+    width: 200px;
+    font-size: 14px;
+}
+
+.footer-item-second p {
+    font-size: 10px;
+    color: rgb(113, 154, 154);
+} */
 
 .material-symbols-outlined {
     font-variation-settings:
