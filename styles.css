@@ -125,6 +125,147 @@ body {
     color: rgb(31, 180, 194);
 }
 
+.container-two {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* justify-content:space-between; */
+}
+
+.section-two-content {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content-grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+
+.container-two .img-container {
+    display: flex;
+    /* justify-content:last baseline; */
+    /* max-width:130px; */
+    /* max-height:95px; */
+    width: 240px;
+    height: 110px;
+    margin-top: 30%;
+    padding-right: 20%;
+    /* overflow: hidden; */
+}
+
+.section-three {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(247, 250, 252);
+}
+
+.section-three h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.section-three h2 {
+    font-size: 12px;
+    margin-bottom: 0.5%;
+}
+
+.section-three p {
+    margin-top: 0;
+    font-size: 11px;
+}
+
+.section-three a {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30%;
+    color: rgb(31, 180, 194);
+}
+
+.section-three .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.section-three .right-container {
+    display: flex;
+    width: 20%;
+    margin-top: 3%;
+    flex-direction: column;
+    margin-right: 13%;
+}
+
+.section-three .right-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(140, 140, 140);
+}
+
+.container-two h1 {
+    font-size: 32px;
+}
+
+.container-two p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+.content-grid {
+    font-size: 13px;
+}
+
+.section-four{
+    margin-top: 3%;
+}
+
+.section-four-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    width: 40%;
+}
+
+.section-four-text h1 {
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.section-four-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 4%;
+}
+
+.grid-parent {
+
+}
+
+.section-four img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -167,12 +308,12 @@ body {
     padding-top: 10px;
 }
 
-table {
+.footer-content table {
     border-collapse: separate;
     border-spacing: 50px 0;
 }
 
-th {
+.footer-content th {
     vertical-align: top;
     text-align: left;
 }
